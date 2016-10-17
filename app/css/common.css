@@ -1,0 +1,55 @@
+.subtitleDiv {
+    border-bottom: 1px solid #666;
+    margin: 10px 20px;
+    padding-bottom: 20px;
+}
+
+.tweetsWrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #f8f8f8;
+    border-radius: 4px;
+    border: 1px solid #e7e7e7;
+}
+
+.tweetDiv {
+    background: #FFF;
+    border: 1px solid #eee;
+    margin: 10px 0px;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.tweetContent span {
+    font-size: 16px;
+}
+
+.tweetContent {
+    padding: 5px 0px 20px 0px;
+}
+
+.tweetAuthorDiv .username {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.tweetAuthorDiv .screen_name,
+.tweetAuthorDiv .timestamp {
+    font-size: 12px;
+    color: #BBB;
+}
+
+.tweetAuthorDiv {
+    padding: 10px 0px;
+}
+
+.errorMessage {
+    color: red;
+    margin: 20px;
+}
+
+.loadingRingDiv img {
+    width: 80px;
+    margin: 70px auto;
+    display: block;
+}

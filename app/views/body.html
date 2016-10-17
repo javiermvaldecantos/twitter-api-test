@@ -1,0 +1,38 @@
+<div class="subtitleDiv">
+    <p ng-bind="subtitle"></p>
+</div>
+<div class="tweetsWrapper"
+     ng-show="allTweets.length !== 0">
+    
+    <div ng-repeat="tweet in allTweets"
+         class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8">
+            
+            <div class="tweetDiv">
+                <div class="tweetAuthorDiv">
+                <span class="username">{{tweet.user.name}}</span>
+                <span class="screen_name">@{{tweet.user.screen_name}} ·</span>
+                <span class="timestamp">{{calculateDifference(tweet.created_at)}}</span>
+                </div>
+                <div class="tweetContent">
+                    <span>{{tweet.text}}</span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-sm-2">
+        </div>
+    </div>
+    
+</div>
+<div class="errorMessageDiv row">
+    <div class="col-sm-12">
+        <p class="errorMessage" ng-bind="errorMessage" ng-show="!loadingTweets"></p>
+    </div>
+</div>
+<div class="loadingRingDiv"
+     ng-show="loadingTweets">
+    <img ng-src="{{loadingImage}}">
+</div>

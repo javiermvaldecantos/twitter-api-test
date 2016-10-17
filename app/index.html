@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="tweets-app"
+      ng-controller="main-ctrl">
+    <head>
+        <title>Get Your Tweets</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="css/common.css"/>
+        <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+    </head>
+    <body class="container">
+        
+        <div class="headerWrapper" ng-include="headerContent">
+        </div>
+        
+        <div class="bodyWrapper" ng-include="bodyContent">
+        </div>
+        
+    </body>
+    <script type="text/javascript" src="vendor/js/jquery.js"></script>
+    <script type="text/javascript" src="vendor/js/bootstrap.js"></script>
+    <script type="text/javascript" src="vendor/js/angular.js"></script>
+    <script type="text/javascript" src="js/main-ctrl.js"></script>
+</html>

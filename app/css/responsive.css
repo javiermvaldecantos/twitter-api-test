@@ -1,0 +1,10 @@
+@media (max-width: 767px) {
+    .headerWrapper form {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .tweetDiv {
+        margin: 10px;
+    }
+}
