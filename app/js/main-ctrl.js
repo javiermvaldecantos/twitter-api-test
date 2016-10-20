@@ -8,7 +8,7 @@
         
         $scope.bodyContent = './views/body.html';
         $scope.headerContent = './views/header.html';
-        $scope.subtitle = "Enter a Twitter username on the box above and you will get their most recent tweets. Only odd tweets are shown on screen.";
+        $scope.subtitle = "Enter a Twitter username on the box above and you will get their most recent tweets.";
         $scope.loadingImage = './img/loading.gif';
         $scope.loadingTweets = false;
         
