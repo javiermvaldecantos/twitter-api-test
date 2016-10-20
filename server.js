@@ -36,13 +36,7 @@ app.get('*', function(request,response) {
             client.get('statuses/user_timeline', params, function(twitterError, tweets, twitterResponse) {
               if (!twitterError) {
 //                  console.log(tweets);
-                  var oddTweets = [];
-                  var length = tweets.length;
-                  for(var i = 0; i < length; i++) {
-                      //send only odd tweets
-                      if(i % 2 !== 0) oddTweets.push(tweets[i]);
-                  }
-                  response.send({success:true, data:oddTweets});
+                  response.send({success:true, data:tweets});
               } else {
                   response.send({success:false})
               }
