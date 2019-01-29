@@ -1,8 +1,6 @@
 # twitter-api-test
 Simple web app to get your last tweets
 
-__Check the web app [HERE](http://twitter-jmorenov.rhcloud.com/)!__
-
 ## How the app works
 This app lets you get your last tweets just by entering your twitter username. It's a simple app I made to test Twitter API.
 
